@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: sandybrown;
+  width: 100%;
+  height: 100vh;
+}
+
+.circle {
+  position: absolute;
+  margin: 0 auto;
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 50%;
+  background-color: chartreuse;
+}
