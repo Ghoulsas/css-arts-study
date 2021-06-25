@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.triangle {
+  position: absolute;
+  margin: 0 auto;
+  height: 0;
+  width: 0;
+  border-bottom: 30vmin solid chartreuse;
+  border-left: 15vmin solid transparent;
+  border-right: 15vmin solid transparent;
+}
